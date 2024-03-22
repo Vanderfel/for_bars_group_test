@@ -24,7 +24,6 @@ public class Main {
         node5.setChildren(Arrays.asList(node6,node7));
 
         ClassForSearchFromTreeGreaterThanN searcher = new ClassForSearchFromTreeGreaterThanN();
-        searcher.findNodesWithValueGreaterThanN(root,12);
         System.out.println(searcher.findNodesWithValueGreaterThanN(root,12));
     }
 }
